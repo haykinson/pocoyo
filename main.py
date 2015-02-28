@@ -144,11 +144,11 @@ class ColorCycle(object):
 color_cycle = ColorCycle()
 floor = SquareFloor()
 
-sequencer = ColorSequencer([Color.red, 
-                            Color.orange, 
+sequencer = ColorSequencer([Color.orange,
                             Color.yellow, 
                             Color.blue, 
-                            Color.green], 5, 24)
+                            Color.green, 
+                            Color.red], 5, 24)
 
 
 while True:
